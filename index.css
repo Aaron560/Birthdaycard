@@ -1,0 +1,37 @@
+.card{
+    background: white;
+    border-radius: 4px;
+    height: 85vh;
+    width: 80vw;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;;
+}
+
+body {
+    display: grid;
+    place-items: center;
+    background-color: #088;
+    height: 100vh;
+    margin: 0;
+}
+
+@media only screen and (min-width: 1000px) {
+    .card {
+        flex-direction: row-reverse;
+    }
+    .card img.birthday {
+        max-height: 50vh;
+    }
+    
+}
+img.birthday {
+    max-height: 40vh;
+}
+
+.muted{
+    opacity: 0.6;
+}
